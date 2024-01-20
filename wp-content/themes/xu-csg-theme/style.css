@@ -1,0 +1,129 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 3.9.2.1662899342
+Updated: 2022-09-11 12:29:02
+
+*/
+
+
+/* General */
+
+.site-header {position: -webkit-sticky; width: 100% !important; }
+/* #content {margin-top:160px;} */
+.site-title{font-weight:bold;}
+.flex-container{display: flex; padding-left: 10%; padding-right: 10%;}
+.grid-item{max-width: 350px; margin: 15px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.20); border-radius: 15px;}
+.grid-thumbnail-div{width:100%; border-radius: 15px 15px 0px 0px; overflow: hidden;}
+.grid-item-thumbnail{width:368px; height: 368px !important;}
+.grid-contents{padding: 15px; display: flex; flex-direction: column; border-radius: 0px 0px 15px 15px;}
+.grid-post-content-div{ padding-top: 10px;}
+.content-area{padding-top:30px !important;}
+.entry-title{margin-top: 30px !important;}
+
+/* Archive Pages */
+.archive-main-div{display: flex; flex-wrap: wrap; flex-direction: column; width:100%; }
+#load-more-div{display:flex; justify-content: center; margin: 15px 0px 15px 0px;}
+.grid-container{display:flex; flex-wrap: wrap; width:100%; justify-content: start;}
+#form-div{display:flex; justify-content: end; width: 100%;}
+.page-numbers{ text-decoration: none;  padding:5px 10px;}
+.basic-filters{display: flex; align-items: center; }
+.filter-select{margin-right:10px;}
+
+
+/* Home */
+.cl-layout__item{flex-basis: 31% !important; padding: 7px !important; margin: 7px !important; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15) !important; border-radius: 25px !important;}
+
+/* Announcemenets */
+.tag-link{margin-right: 10px;}
+
+/* Pagination */
+.nav-links{text-align: center; }
+.pagination .nav-links{display: flex;justify-content: center;align-items: center;}
+.page-numbers{font-weight: bold;  }
+.clear-filters-link{margin-left: 5px;}
+.post-thumbnail{transition: transform 0.5s;}
+.post-thumbnail:hover{transform: scale(1.1);}
+
+/* All Posts */
+.feat-img{margin-top: 50px; width: 100%;}
+
+
+/* Resolutions */
+.resolution-content{margin-top:25px; }
+.resolution-title{margin-top:15px; margin-bottom: 15px;}
+.resolution-body{text-align:justify; margin-bottom: 25px;}
+
+/* Memos */
+.memo-title{margin-top: 15px; margin-bottom: 15px;}
+
+/* Resolution archive */
+.resolution-archive-container{display:flex; flex-direction:column; }
+.resolution-table{border-collapse:collapse; margin: 25px 0px; font-size: 0.9em; min-width: 400px; border-radius: 5px; overflow: hidden; box-shadow: 0 0 20px rgba(0, 0, 0, 0.20); width: 100%;}
+.resolution-table thead tr {min-width: 400px; background: #2a2d72; color: white; text-align: left;}
+.resolution-table th, .bill-table td {padding: 15px;}
+.resolution-table tbody tr {border-bottom: 1px solid #dddddd;}
+.resolution-table tbody tr:nth-of-type(even) {background-color: #f3f3f3;}
+.resolution-table tbody tr:nth-last-of-type(){border-bottom: 2px solid black;}
+
+/* Services  */
+.service-description{padding: 10px;}
+/* .service-container{border: solid black 1px; margin: 20px 0px 20px 0px !important; padding: 10px !important;} */
+.service-image{ padding: 10px; border-radius: 20px !important;}
+
+/* Announcements */
+.announcement-title{margin-top: 15px; margin-bottom: 15px;}
+
+
+/* HomePage */
+.custom_header{}
+
+
+/* Surveys */
+.filter-label, .clear-filters-link{margin: 0px 10px 0px 10px; display: flex; align-items: center;}
+.filter-form{display: flex; flex-direction: row; }
+.filter-form-sub-div{ margin: 5px; display: flex; justify-content: end; flex-wrap: wrap;}
+#submit-btn{margin: 0px 10px 0px 10px;}
+#survey_classification{margin-right: 10px;}
+
+/* Volunteering Events */
+.volunteer-title{margin-top: 15px; margin-bottom: 15px;}
+
+/*Make Header Sticky*/
+.site-header {position: fixed; top: 0;width: 100%;}
+
+/*Adjust Content Padding*/
+.site-content {padding-top: 100px;}
+
+.cl-layout__item{min-width: 350px;}
+
+@media (min-width: 922px) and (max-width: 1199px) {
+    .site-content {padding-top: 47px;}
+    #primary{margin-top: 100px !important;}
+}
+
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 921px) {
+	/*Stick the Off-Canvas Navigation Menu - Adjust Top Margin for your Layout*/
+	.main-navigation {position: fixed;	margin-top: 0px;}
+    .grid-item{width: 350px;}
+    .content-area{padding-top:10px !important;}
+    .filter-form{flex-direction: column;}
+    #primary{margin-top: 8px !important;}
+
+}
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 650px) {
+	/*Stick the Off-Canvas Navigation Menu - Adjust Top Margin for your Layout*/
+    .entry-title{margin-top: 0px !important;}
+    #primary{margin-top: 0px !important;}
+    .filter-form{flex-direction: column;}
+
+}
